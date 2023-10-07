@@ -16,7 +16,7 @@ let zinc_gray_200 = "#b0b0b0"
 
 let hot_pink = "#ff0088"
 let hot_cyan = "#87ffff"
-let white = "#ffffff"
+let white = "#eeeeee"
 
 let cterm_gray_900 = 234
 let cterm_gray_800 = 239
@@ -29,7 +29,7 @@ let cterm_zinc_gray_900 = 59 " zinc_gray_900
 
 let cterm_hot_pink = 198
 let cterm_hot_cyan = 123
-let cterm_white = 231 " white
+let cterm_white = 255 " white
 
 highlight clear
 syntax reset
