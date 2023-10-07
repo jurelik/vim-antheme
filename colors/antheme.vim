@@ -1,5 +1,5 @@
 " Assumes background=dark
-let gray_900 = "#121212"
+let gray_900 = "#222222"
 let gray_800 = "#323232"
 let gray_700 = "#535353"
 let gray_600 = "#737373"
@@ -15,9 +15,10 @@ let zinc_gray_500 = "#787878"
 let zinc_gray_200 = "#b0b0b0"
 
 let hot_pink = "#ff0088"
+let hot_cyan = "#87ffff"
 let white = "#ffffff"
 
-let cterm_gray_900 = 233
+let cterm_gray_900 = 234
 let cterm_gray_800 = 239
 let cterm_gray_700 = 243
 let cterm_gray_600 = 246
@@ -27,11 +28,12 @@ let cterm_gray_400 = 252
 let cterm_zinc_gray_900 = 59 " zinc_gray_900
 
 let cterm_hot_pink = 198
+let cterm_hot_cyan = 123
 let cterm_white = 231 " white
 
 highlight clear
 syntax reset
-let g:colors_name = "noirblaze"
+let g:colors_name = "antheme"
 
 exec "hi Normal ctermfg=".cterm_gray_400." ctermbg=".cterm_gray_900
 exec "hi Normal guifg=".gray_400." guibg=".gray_900
@@ -45,12 +47,12 @@ exec "hi Character guifg=".zinc_gray_500
 exec "hi Character ctermfg=".cterm_gray_700
 exec "hi Identifier guifg=".white." gui=none"
 exec "hi Identifier ctermfg=".cterm_white." cterm=none"
-exec "hi Statement guifg=".zinc_gray_200
-exec "hi Statement ctermfg=".cterm_gray_500
+exec "hi Statement guifg=".hot_pink
+exec "hi Statement ctermfg=".cterm_hot_pink
 exec "hi PreProc guifg=".hot_pink
 exec "hi PreProc ctermfg=".cterm_hot_pink
-exec "hi Type guifg=".zinc_gray_600
-exec "hi Type ctermfg=".cterm_gray_700
+exec "hi Type guifg=".hot_cyan
+exec "hi Type ctermfg=".cterm_hot_cyan
 exec "hi Special guifg=".zinc_gray_500
 exec "hi Special ctermfg=".cterm_gray_700
 exec "hi Underlined guifg=".zinc_gray_200
