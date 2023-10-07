@@ -1,5 +1,7 @@
 A dark minimal vim theme with a touch of hot pink and cyan. Fork of [noirblaze-vim](https://github.com/n1ghtmare/noirblaze-vim).
 
+![antheme](https://github.com/jurelik/vim-antheme/assets/43504530/eef691d7-8e17-4661-beb9-af7e3a003bfb)
+
 ## Installation
 
 If you're using vim-plug you can add the following to your plugin call:
